@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+.Post-card {
+  display: flex;
+  padding: 5rem;
+  margin: 5rem 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  border-radius: 2rem;
+  position: relative;
+
+  h1 {
+    color: rgb(44, 43, 43);
+    font-family: $Montserrat;
+    font-size: 2rem;
+  }
+}
+.Com-body {
+  background-color: aquamarine;
+}

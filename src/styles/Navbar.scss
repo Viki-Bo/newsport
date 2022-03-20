@@ -1,0 +1,41 @@
+@import './variables.scss';
+.Navbar {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: right;
+
+  h1 {
+    font-size: 3rem;
+    font-family: $Righteous;
+    position: absolute;
+    left: 3rem;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  li {
+    list-style-type: none;
+    margin-left: 1rem;
+
+    a {
+      text-decoration: none;
+      color: black;
+      background-color: antiquewhite;
+      margin: 1rem;
+      padding: 1rem 2rem;
+      border-radius: 2rem 0;
+      position: relative;
+      justify-content: right;
+    }
+    a:hover {
+      background-color: rgb(166, 241, 247);
+    }
+  }
+}

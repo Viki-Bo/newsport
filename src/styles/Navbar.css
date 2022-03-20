@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Righteous&display=swap");
+.Navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.Navbar h1 {
+  font-size: 3rem;
+  font-family: "Righteous", cursive;
+  position: absolute;
+  left: 3rem;
+}
+
+.Navbar h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar li {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+
+.Navbar li a {
+  text-decoration: none;
+  color: black;
+  background-color: antiquewhite;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem 0;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.Navbar li a:hover {
+  background-color: #a6f1f7;
+}
+/*# sourceMappingURL=Navbar.css.map */

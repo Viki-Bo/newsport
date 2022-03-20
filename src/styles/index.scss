@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: $Montserrat;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(48, 48, 48),
+    rgba(107, 105, 92, 0.698)
+  );
+  min-height: 100vh;
+  //font-family: 'Righteous', cursive;
+}
