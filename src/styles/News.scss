@@ -28,7 +28,9 @@
 
   .Link {
     text-decoration: none;
-    color: white;
+    color: rgb(235, 230, 243);
+    font-style: bold;
+    text-shadow: 1px 1px 10px black;
   }
   h2 {
     color: white;
@@ -46,9 +48,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.295);
     border-radius: 1rem;
     overflow: hidden;
     z-index: 10;
+    text-transform: uppercase;
   }
 }

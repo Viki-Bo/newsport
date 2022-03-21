@@ -30,8 +30,8 @@ function News() {
             <Splide options={{ perPage: 6, arrows: false, pagination: false, drag: 'free', gap: '3rem' }}>
                 {state.news.map((post, index) => {
                     return (
-                        <SplideSlide>
-                            <div className="card" key={post.id}>
+                        <SplideSlide key={post.id}>
+                            <div className="card">
                                 <p className="Text">
                                     <Link className="Link" to={`/post/${post.id}`}>{post.title}</Link>
                                 </p>

@@ -50,6 +50,16 @@ function Post() {
         });
     }
 
+    const handleChange = e => {
+        setPost({
+            ...post,
+            newComment: {
+                ...post.newComment,
+                [e.target.name]: e.target.value
+            }
+        })
+    }
+
     return (
         <div className="Post-card">
             <div className='Post-body'>
@@ -72,9 +82,9 @@ function Post() {
                 })}
                 <div>
                     <label>Email</label>
-                    <input value={post.newComment.email} onChange={e => post.newComment.email = e.target.value} type="email" className="form-control" id="post" placeholder="name@example.com" />
+                    <input name="email" value={post.newComment.email} onChange={handleChange} type="email" className="form-control" id="post" placeholder="name@example.com" />
                     <label>Comment</label>
-                    <textarea value={post.newComment.body} onChange={e => post.newComment.body = e.target.value} className="form-control" id="post" rows="3"></textarea>
+                    <textarea name="body" value={post.newComment.body} onChange={handleChange} className="form-control" id="post" rows="3"></textarea>
                     <button onClick={addComment}>Add new comment</button>
                 </div>
             </div>

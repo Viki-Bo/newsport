@@ -21,7 +21,7 @@
 }
 
 .Addpost .form-control {
-  min-width: 100vh;
+  min-width: 50vh;
   position: relative;
   margin: 1rem 0rem;
   border-radius: 1rem;

@@ -52,4 +52,13 @@
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
+
+@media screen and (max-width: 1100px) {
+  .Navbar h1 {
+    font-size: 3rem;
+  }
+  .Navbar li {
+    font-size: small;
+  }
+}
 /*# sourceMappingURL=Navbar.css.map */
