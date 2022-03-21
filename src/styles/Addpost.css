@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Righteous&display=swap");
+.Addpost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem;
+  margin: 5rem 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(240, 255, 255, 0.589);
+  border-radius: 2rem;
+  position: relative;
+}
+
+.Addpost .form-control {
+  min-width: 100vh;
+  position: relative;
+  margin: 1rem 0rem;
+  border-radius: 1rem;
+}
+
+.Addpost button {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem 0;
+  position: relative;
+  float: right;
+}
+
+.Addpost button:hover {
+  background-color: rgba(212, 117, 235, 0.486);
+}
+
+.Addpost textarea {
+  background-color: rgba(212, 117, 235, 0.486);
+}
+/*# sourceMappingURL=Addpost.css.map */

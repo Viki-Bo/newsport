@@ -7,8 +7,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#303030), to(rgba(107, 105, 92, 0.698)));
-  background-image: linear-gradient(to bottom, #303030, rgba(107, 105, 92, 0.698));
+  background: #050d16;
+  background: linear-gradient(350deg, #7e1cc0 0%, #ea7cf8 50%, #540b66 100%);
   min-height: 100vh;
 }
 /*# sourceMappingURL=index.css.map */

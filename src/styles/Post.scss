@@ -3,20 +3,72 @@
 .Post-card {
   display: flex;
   padding: 5rem;
-  margin: 5rem 3rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: azure;
+  margin: 1rem 3rem;
+  background-color: rgba(240, 255, 255, 0.589);
   border-radius: 2rem;
   position: relative;
+  justify-content: center;
 
-  h1 {
+  textarea {
+    background-color: rgba(208, 117, 235, 0.432);
+    border: none;
+  }
+  button {
+    border: none;
+    margin-top: 0.3rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem 0;
+    position: relative;
+    float: right;
+    transition: all 0.5s ease-in-out;
+  }
+
+  button:hover {
+    background-color: rgba(212, 117, 235, 0.486);
+    transform: scale(1.1);
+  }
+
+  .Post-body {
+    flex-direction: column;
+    min-width: 60%;
+    margin-right: 3rem;
+    position: relative;
+
+    h5 {
+      padding: 1rem 0rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      padding-right: 1rem;
+      margin: 2rem 0rem;
+    }
+  }
+  .Com-body {
+    h4 {
+      color: rgb(58, 58, 58);
+      font-size: small;
+      margin-top: 1rem;
+    }
+
+    P {
+      background-color: rgba(255, 255, 255, 0.815);
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      font-size: 0.7rem;
+    }
+  }
+
+  h3 {
     color: rgb(44, 43, 43);
     font-family: $Montserrat;
     font-size: 2rem;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
   }
 }
-.Com-body {
-  background-color: aquamarine;
+img {
+  width: 100vh;
+  height: 60vh;
+  object-fit: cover;
 }

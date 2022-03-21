@@ -1,5 +1,4 @@
 import News from "../components/News";
-
 import React from 'react'
 
 function Popular() {

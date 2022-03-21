@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+.Addpost {
+  display: flex;
+  padding: 5rem;
+  margin: 5rem 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 255, 255, 0.589);
+  border-radius: 2rem;
+  position: relative;
+
+  .form-control {
+    min-width: 100vh;
+    position: relative;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+  }
+
+  button {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem 0;
+    position: relative;
+    float: right;
+  }
+
+  button:hover {
+    background-color: rgba(212, 117, 235, 0.486);
+  }
+
+  textarea {
+    background-color: rgba(212, 117, 235, 0.486);
+  }
+}

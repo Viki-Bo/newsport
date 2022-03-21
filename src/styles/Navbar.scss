@@ -9,14 +9,14 @@
   justify-content: right;
 
   h1 {
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-family: $Righteous;
     position: absolute;
     left: 3rem;
 
     a {
       text-decoration: none;
-      color: black;
+      color: white;
     }
   }
 
@@ -26,8 +26,8 @@
 
     a {
       text-decoration: none;
-      color: black;
-      background-color: antiquewhite;
+      color: white;
+      background-color: rgba(19, 18, 18, 0);
       margin: 1rem;
       padding: 1rem 2rem;
       border-radius: 2rem 0;
@@ -35,7 +35,9 @@
       justify-content: right;
     }
     a:hover {
-      background-color: rgb(166, 241, 247);
+      background-color: rgb(255, 255, 255);
+      color: rgb(149, 45, 163);
+      transition: all 0.7s ease-in-out;
     }
   }
 }

@@ -9,9 +9,9 @@ function Navbar() {
                 <h1><Link to='/'>Newssport</Link></h1>
                 <ul>
                     <li>
-                        <a href="">All News</a>
-                        <a href="">Add Post</a>
-                        <a href="">Contact Us</a>
+                        <Link to='/'>Top News</Link>
+                        <Link to='/all'>All News</Link>
+                        <Link to='/add'>Add Post</Link>
                     </li>
                 </ul>
 
